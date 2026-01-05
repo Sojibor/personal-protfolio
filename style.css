@@ -1,3 +1,38 @@
-body{
-    background-color: red;
+*{ 
+    margin: 0 auto;
+    padding: auto;
+}
+.font-open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    background-color: rgb(242, 196, 118);
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.logo .r{
+color: orangered;
+}
+nav li{
+    display: inline;
+    padding: 15px;
+    align-items: center;
+    font-weight: 600;
+}
+nav li a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(126, 127, 128);
+}
+.btn{
+    color: white;
+    background-color: orangered;
+    border:none;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
 }
