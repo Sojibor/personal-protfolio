@@ -6,9 +6,7 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-/* header{
-    background-color: #fff8f3;
-} */
+
 .hero{
     background-color: #fff8f3;
     background: url(images/developer.png), url(images/header_bg.png),#fff8f3;
@@ -48,7 +46,6 @@ nav li a{
     cursor: pointer;
 }
 #banner{
-    /* border: 1px solid orangered; */
     margin: 0 38px 0 230px;
     display: flex;
     justify-content: space-between;
@@ -80,4 +77,72 @@ nav li a{
 #banner .banner-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+
+/* Sectional  */
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    padding: 70px 156px;
+}
+.sectional-heading{
+    text-align: center;
+    max-width: 71%;
+    margin-top: 30px;
+}
+.sectional-heading h2{  
+    font-size: 35px;
+    margin-bottom: 30px ;
+}
+.sectional-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color:#474747;
+    max-width: 827px;
+} 
+.section-heading h2{
+font-size: 35px;
+margin-bottom: 30px;
+}
+.section-heading p{
+}
+
+#about{
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.about-container{
+    background-color: #fff8f3
+}
+.card-info{
+    display: flex;
+    gap: 24px;
+    padding: 20px;
+}
+
+.info-cards{
+    border-radius: 5px;
+    background-color: rgb(245, 244, 244);
+    padding: 15px;
+    box-shadow:0 6px 50px 0 #00000038;
+    text-align: left;
+    max-width: 267px;
+}
+.info-cards img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.info-cards h5{
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.info-cards p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
 }
